@@ -1,4 +1,0 @@
-35a435c2c7dd8921b6560d8b808f63d6cafadb99  cli_nightly_darwin_amd64.tar.gz
-33b5e6ffa1c3cfb8aa9f86937fe30cba9c570c7d  cli_nightly_darwin_arm64.tar.gz
-e0e3ebb20213959f23e975abd6770c5a54587345  cli_nightly_linux_amd64.tar.gz
-2b2c2f7d85b5cf4133397202e9d6288cd51cb8f2  cli_nightly_linux_arm64.tar.gz
