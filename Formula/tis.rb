@@ -4,7 +4,7 @@
 class Tis < Formula
   desc "A CLI for TIS API"
   homepage "https://3128px.github.io/concierge/tis"
-  version "v0.0.1-nightly+4f4284c"
+  version "v0.0.1-nightly+2624d7f"
 
   on_macos do
     if Hardware::CPU.intel?
