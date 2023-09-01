@@ -4,12 +4,12 @@
 class Tis < Formula
   desc "A CLI for TIS API"
   homepage "https://3128px.github.io/concierge/tis"
-  version "v0.0.1-nightly+978972f"
+  version "v0.0.1-nightly+9cfafe3"
 
   on_macos do
     if Hardware::CPU.intel?
       url "https://3128px.github.io/concierge/tis/nightly/cli_nightly_darwin_amd64.tar.gz"
-      sha256 "d90bff20afd118e277cfaaf129c207939d267822572783e3b01eeb84e878a092"
+      sha256 "2114ab9544ea86f5d1c790f37f7b103246a3cf54c0f0f2ead3822d1e5c3aa380"
 
       def install
         bin.install "tis"
@@ -17,7 +17,7 @@ class Tis < Formula
     end
     if Hardware::CPU.arm?
       url "https://3128px.github.io/concierge/tis/nightly/cli_nightly_darwin_arm64.tar.gz"
-      sha256 "0267075662c77b81893f49d14a50b44dafa0407f6eb00539274ba62f01f00035"
+      sha256 "77e4b508a2e1b897b0f38eb3e9dfb0d9979c834f0f4cea5a7b709b7fe32cefc0"
 
       def install
         bin.install "tis"
@@ -28,7 +28,7 @@ class Tis < Formula
   on_linux do
     if Hardware::CPU.arm? && Hardware::CPU.is_64_bit?
       url "https://3128px.github.io/concierge/tis/nightly/cli_nightly_linux_amd64.tar.gz"
-      sha256 "f7b194ca4ca3a43b611b7c1985c7bae8239968eb8c46289f3505652b38dc4a37"
+      sha256 "303899adb1bfdc58fff91bf464b63c4de3f52e819ae7560325c4576f5c7d9c51"
 
       def install
         bin.install "tis"
@@ -36,7 +36,7 @@ class Tis < Formula
     end
     if Hardware::CPU.intel?
       url "https://3128px.github.io/concierge/tis/nightly/cli_nightly_linux_arm64.tar.gz"
-      sha256 "b339955e5ab421f4d029e4bb064c271d438a481e9e2e9ffb907a62a8b5f57d75"
+      sha256 "5a96fefa2d8df63f1b439f3d31ebe8cd4881ef4ca9ca7ee9022b7cd7b0e81a0b"
 
       def install
         bin.install "tis"
